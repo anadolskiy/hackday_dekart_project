@@ -5,6 +5,6 @@ application: hackday_dekart_extension {
   url: "http://localhost:8080/bundle.js"
   # file: "bundle.js
   entitlements: {
-    core_api_methods: ["me", "dashboard_dashboard_elements"] #Add more entitlements here as you develop new functionality
+    core_api_methods: ["me", "dashboard_dashboard_elements", "run_query"] #Add more entitlements here as you develop new functionality
   }
 }
