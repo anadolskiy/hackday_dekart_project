@@ -6,5 +6,6 @@ application: hackday_dekart_extension {
   # file: "bundle.js
   entitlements: {
     core_api_methods: ["me", "dashboard_dashboard_elements", "run_query", "all_dashboards"] #Add more entitlements here as you develop new functionality
+    external_api_urls: ["https://d1a3f4spazzrp4.cloudfront.net/kepler.gl/icons/svg-icons.json"]
   }
 }
